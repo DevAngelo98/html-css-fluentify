@@ -1,0 +1,101 @@
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+.contenitore{
+ font-family: 'Museo Sans';
+}
+
+#bottone-help{
+ display: block;
+ position: fixed;
+ background-color: rgb(123, 188, 0);
+ left:77%;
+ top:93.5%;
+ color: white;
+ padding: 8px 10px 21px;
+ border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+
+header{
+ background-color: #0D325A;
+ width: 100%;
+ height: 100px;
+}
+
+#contenuto-intestazione{
+ background-color: #0D325A;
+ width: 100%;
+ height: 400px;
+}
+
+.cont-testo{
+ background-color: #f9f9f9;
+ width: 100%;
+ height: 200px;
+}
+
+#riass-percorso{
+ background-color: red;
+ width: 100%;
+ height: 500px;
+}
+
+hr{
+ margin: 5px;
+ background: grey;
+}
+
+#personale{
+ background-color: blue;
+ width: 100%;
+ height: 500px;
+}
+
+#piano{
+ background-color: #f9f9f9;
+ width: 100%;
+ height: 250px;
+}
+
+#one-to-one{
+ background-color: #0D325A;
+ width: 100%;
+ height: 500px;
+}
+
+#inglese-essenz{
+ width: 100%;
+ height: 730px;
+}
+
+#tecnologia{
+ width: 100%;
+ height: 565px;
+}
+
+#azienda-ing{
+ background-color: #0D325A;
+ width: 100%;
+ height: 500px;
+}
+
+#struttura-piano{
+ width: 100%;
+ height: 546px;
+}
+
+#faqs{
+ background-color: #0F335A;
+ width: 100%;
+ height: 136px;
+}
+
+footer{
+ background-color: #17406B;
+ width: 100%;
+ height: 412px;
+}
