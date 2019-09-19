@@ -500,13 +500,13 @@ a[href="#lezioni"] {
  height: 500px;
 }
 
-#azienda-testo h3{
+#azienda-testo h3 {
  font-weight: 500;
  font-size: 30px;
  color: #fff;
 }
 
-#azienda-testo p{
+#azienda-testo p {
  color: #fff;
  font-size: 18px;
  font-weight: 300;
@@ -514,28 +514,140 @@ a[href="#lezioni"] {
  opacity: .5;
 }
 
-#azienda-testo a{
+#azienda-testo a {
  margin-top: 30px;
  display: inline-block;
  padding: 15px 45px;
  font-weight: 600;
 }
 
-#coppia-pc{
+#coppia-pc {
  width: 60%;
  height: 100%;
  float: right;
 }
 
-#coppia-pc > img{
+#coppia-pc > img {
  width: 100%;
  position: relative;
  top: 118.5px;
 }
 
+#azienda-ing {
+ display: table;
+ content: "";
+ clear: both;
+}
+
 #struttura-piano {
  width: 100%;
  height: 546px;
+}
+
+#piano-strutt{
+ padding: 80px 140px;
+ width: 100%;
+ height: 100%;
+ text-align: center;
+}
+
+#piano-strutt h2{
+ text-align: center;
+ color: #4a4a4a;
+ font-size: 30px;
+ font-weight: 500;
+ line-height: 45px;
+}
+
+.pos {
+ height: 80%;
+ width: 30%;
+ display: inline-block;
+ padding: 50px 10px;
+ position: relative;
+}
+
+.studente-immagine > img {
+ float: left;
+ width: 45px;
+ height: 37px;
+}
+
+.worker-immagine > img {
+ float: left;
+ width: 41px;
+ height: 37px;
+}
+
+.business-immagine > img {
+ float: left;
+ width: 37px;
+ height: 37px;
+}
+
+.pos h4 {
+ position: absolute;
+ font-size: 18px;
+ margin-top: 30px;
+ opacity: .8;
+ color: #373a3c;
+}
+
+.img-cont:after {
+ display: table;
+ content: "";
+ clear: both;
+}
+
+.pos p {
+ position: absolute;
+ margin-top: 65px;
+ text-align: left;
+ line-height: 18px;
+ color: #999;
+}
+
+.pos hr {
+ margin-top: 135px;
+}
+
+.pos a {
+ margin-top: 10px;
+ float: left;
+ font-size: 20px;
+}
+
+a[href="#azzurro"] {
+ color: #98c8f8;
+}
+
+a[href="#ara"] {
+ color: #f8b71c
+}
+
+a[href="#ver"] {
+ color: #7fb802;
+}
+
+.pro-hr {
+ padding-bottom: 5px;
+ margin: 0;
+ border-top: 0;
+ border-right: 0;
+ border-left: 0;
+ border-bottom: 0;
+}
+
+#azzurro{
+ background-color: #98c8f8;
+}
+
+#ara{
+ background-color: #f8b71c;
+}
+
+#ver{
+ background-color: #7fb802;
 }
 
 #faqs {
