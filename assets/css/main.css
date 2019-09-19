@@ -325,10 +325,62 @@ hr{
  font-weight: bolder;
 }
 
+#piano::after{
+ display: table;
+ content: "";
+ clear: both;
+}
+
 #one-to-one{
  background-color: #0D325A;
  width: 100%;
  height: 500px;
+}
+
+.posizionamento{
+ height: 90%;
+ width: 40%;
+ float: left;
+ padding-top: 130px;
+ padding-left: 102px;
+}
+
+.testo-giallo{
+ color: #f8b71c;
+}
+
+#testo-one h3{
+ font-weight: 500;
+ font-size: 35px;
+ color: #fff;
+}
+
+#testo-one p{
+ color: #fff;
+ font-size: 20px;
+ font-weight: 300;
+ margin: 20px 0px;
+ opacity: .5;
+ padding-right: 20px;
+ line-height: 26px;
+}
+
+a[href="#lezioni"]{
+ color: #98c8f8;
+ font-size: 20px;
+}
+
+#immagine-one{
+ height: 90%;
+ width: 40%;
+ display: inline-block;
+ position: absolute;
+ right: 321px;
+}
+
+#immagine-one > img{
+ height: 498px;
+ width: 791px;
 }
 
 #inglese-essenz{
