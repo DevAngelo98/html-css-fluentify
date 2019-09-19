@@ -1,14 +1,14 @@
-*{
+* {
  margin: 0;
  padding: 0;
  box-sizing: border-box;
 }
 
-.contenitore{
+.contenitore {
  font-family: Museo Sans;
 }
 
-#bottone-help{
+#bottone-help {
  display: block;
  position: fixed;
  background-color: rgb(123, 188, 0);
@@ -21,29 +21,29 @@
  cursor: pointer;
 }
 
-header{
+header {
  background-color: #0D325A;
  width: 100%;
  height: 100px;
  padding: 20px 66px;
 }
 
-header:after{
+header:after {
  display: table;
  content: "";
  clear: both;
 }
 
-#logo{
+#logo {
  margin-left: 35px;
  float: left;
 }
 
-#logo img:hover{
+#logo img:hover {
  cursor: pointer;
 }
 
-.navbar-selezione{
+.navbar-selezione {
  float: left;
  width: 45%;
  font-size: 12px;
@@ -51,35 +51,35 @@ header:after{
  margin-left: 25px;
 }
 
-.navbar-selezione ul li a{
+.navbar-selezione ul li a {
  text-decoration: none;
  color: white;
  font-weight: bold;
 }
 
-.navbar-login{
+.navbar-login {
  float: right;
  margin-right: 12px;
  font-size: 12px;
  margin-top: 10px;
 }
 
-ul{
+ul {
  list-style-type: none;
 }
 
-ul li{
+ul li {
  float: left;
  margin: 8px;
  font-weight: bold;
 }
 
-.navbar-login ul:first-child{
+.navbar-login ul:first-child {
  color: rgba(255,255,255,.5);
  cursor: pointer;
 }
 
-.navbar-login ul li:nth-child(2){
+.navbar-login ul li:nth-child(2) {
  border: 1px solid #4e8cb6;
  border-radius: 5px;
  opacity: .9;
@@ -90,13 +90,13 @@ ul li{
  margin-right: 0px;
 }
 
-[href="#login"]{
+[href="#login"] {
  color:white;
  text-decoration: none;
  border-color: #4e8cb6;
 }
 
-.struttura{
+.struttura {
  border-radius: 5px;
  padding: 8px 10px;
  position: relative;
@@ -105,35 +105,35 @@ ul li{
  background-color: #7fb802;
 }
 
-[href="#struttura"]{
+[href="#struttura"] {
  text-decoration: none;
  color:white;
 }
 
 
-#contenuto-intestazione{
+#contenuto-intestazione {
  background-color: #0D325A;
  width: 100%;
  height: 400px;
 }
 
-#testo-titolo{
+#testo-titolo {
  position: absolute;
  margin: 90px 0px 120px 100px;
 }
 
-#testo-titolo h1{
+#testo-titolo h1 {
  color: white;
  font-size: 45px;
  font-weight: 500;
  margin-bottom: 40px;
 }
 
-#testo-titolo a{
+#testo-titolo a {
  padding: 14px 10px;
 }
 
-#immagine-oldman{
+#immagine-oldman {
  float: right;
  background-image: url(../img/oldman.png);
  background-size: cover;
@@ -141,7 +141,7 @@ ul li{
  height: 100%
 }
 
-.cont-testo{
+.cont-testo {
  background-color: #f9f9f9;
  width: 100%;
  height: 180px;
@@ -149,53 +149,53 @@ ul li{
  padding: 50px;
 }
 
-.cont-testo h4{
+.cont-testo h4 {
  font-size: 28px;
  font-weight: 300;
  color:rgb(55, 58, 60);
 }
 
-.cont-testo p{
+.cont-testo p {
  font-size: 20px;
  color:rgb(153, 153, 153);
 }
 
-#riass-percorso{
+#riass-percorso {
  width: 100%;
  height: 545px;
  text-align: center;
 }
 
-#riass-percorso:after{
+#riass-percorso:after {
  display: table;
  content: "";
  clear:both;
 }
 
-.immagine-testo{
+.immagine-testo {
  float: left;
  margin: 10px 21px;
  width: 30%;
 }
 
-.immagine-testo .immagine{
+.immagine-testo .immagine {
  margin: 10px 122px;
 }
 
-.immagine{
+.immagine {
  height: 220px;
 }
 
-.profile > img{
+.profile > img {
  height: 160px;
 }
 
-.immagine-testo h6{
+.immagine-testo h6 {
  color: #7fb802;
  font-size: 28px;
 }
 
-.immagine-testo hr{
+.immagine-testo hr {
  opacity: .3;
  width: 32px;
  border-top: 2px solid;
@@ -204,7 +204,7 @@ ul li{
  text-align: center;
 }
 
-.immagine-testo p{
+.immagine-testo p {
  font-size: 15px;
  font-weight: 300;
  line-height: 25px;
@@ -212,29 +212,29 @@ ul li{
  margin: 0 54px;
 }
 
-.computer{
+.computer {
  margin-bottom: 100px;
 }
 
-.computer > img{
+.computer > img {
  height: 143px;
 }
 
-.doc > img{
+.doc > img {
  height: 152px;
 }
 
-hr{
+hr {
  margin: 5px;
  background: grey;
 }
 
-#personale{
+#personale {
  width: 100%;
  height: 500px;
 }
 
-#scalata{
+#scalata {
  float: left;
  background-image: url(../img/mountain.svg);
  height: 417px;
@@ -244,7 +244,7 @@ hr{
  margin-top: 32px;
 }
 
-#testo-montagna{
+#testo-montagna {
  height: 100%;
  width: 40%;
  float: right;
@@ -252,14 +252,14 @@ hr{
  padding: 118px 0px 80px 63px;
 }
 
-#testo-montagna h2{
+#testo-montagna h2 {
  color: #4a4a4a;
  font-size: 35px;
  font-weight: 500;
  line-height: 45px;
 }
 
-#testo-montagna p{
+#testo-montagna p {
  font-size: 21px;
  font-weight: 300;
  margin-top: 15px;
@@ -267,7 +267,7 @@ hr{
  color: #999;
 }
 
-#testo-montagna a{
+#testo-montagna a {
  color: #98c8f8;
  text-decoration: underline;
  margin-top: 23px;
@@ -275,25 +275,25 @@ hr{
  font-size: 19px;
 }
 
-#piano{
+#piano {
  background-color: #f9f9f9;
  width: 100%;
  height: 130px;
 }
 
-#piano #testo-piano{
+#piano #testo-piano {
  color: #4a4a4a;
  font-size: 32px;
  float: left;
  margin: 40px 70px;
 }
 
-#selezione-piano{
+#selezione-piano {
  float: right;
  margin: 40px 3px;
 }
 
-#selezione-piano h3{
+#selezione-piano h3 {
  float:left;
  margin-top: 11px;
  margin-right: 58px;
@@ -301,12 +301,12 @@ hr{
  color: #b2b2b2;
 }
 
-#selezione-piano form{
+#selezione-piano form {
  float: left;
  margin: 5px;
 }
 
-.input-line{
+.input-line {
  border-top: 0;
  border-right: 0;
  border-left: 0;
@@ -317,7 +317,7 @@ hr{
  background-color: #F9F9F9;
 }
 
-#selezione-piano .struttura{
+#selezione-piano .struttura {
  padding: 12px 23px;
  font-size: 17px;
  margin-top: 12px;
@@ -325,19 +325,19 @@ hr{
  font-weight: bolder;
 }
 
-#piano::after{
+#piano::after {
  display: table;
  content: "";
  clear: both;
 }
 
-#one-to-one{
+#one-to-one {
  background-color: #0D325A;
  width: 100%;
  height: 500px;
 }
 
-.posizionamento{
+.posizionamento {
  height: 90%;
  width: 40%;
  float: left;
@@ -345,17 +345,17 @@ hr{
  padding-left: 102px;
 }
 
-.testo-giallo{
+.testo-giallo {
  color: #f8b71c;
 }
 
-#testo-one h3{
+#testo-one h3 {
  font-weight: 500;
  font-size: 35px;
  color: #fff;
 }
 
-#testo-one p{
+#testo-one p {
  color: #fff;
  font-size: 20px;
  font-weight: 300;
@@ -365,12 +365,12 @@ hr{
  line-height: 26px;
 }
 
-a[href="#lezioni"]{
+a[href="#lezioni"] {
  color: #98c8f8;
  font-size: 20px;
 }
 
-#immagine-one{
+#immagine-one {
  height: 90%;
  width: 40%;
  display: inline-block;
@@ -378,39 +378,96 @@ a[href="#lezioni"]{
  right: 321px;
 }
 
-#immagine-one > img{
+#immagine-one > img {
  height: 498px;
  width: 791px;
 }
 
-#inglese-essenz{
- width: 100%;
- height: 730px;
+#one-to-one:after{
+ display: table;
+ content: "";
+ clear: both;
 }
 
-#tecnologia{
+#inglese-essenz {
+ width: 100%;
+ height: 555px;
+}
+
+#inglese-immagine {
+ float: left;
+ padding: 140px 102px;
+}
+
+#inglese-immagine > img{
+ width: 546px;
+ height: 259px;
+}
+
+#inglese-testo {
+ display: inline-block;
+ position: absolute;
+ width: 40%;
+ height: 90%;
+ padding: 140px 70px;
+ right: 110px;
+}
+
+#inglese-testo h2{
+ color: #4a4a4a;
+ font-size: 35px;
+ font-weight: 500;
+ line-height: 45px;
+}
+
+#inglese-testo p{
+ font-size: 18px;
+ font-weight: 300;
+ margin-top: 15px;
+ line-height: 21px;
+ color: #999;
+ padding: 20px 0 20px 0;
+ margin-bottom: 15px;
+}
+
+#inglese-testo .struttura{
+ padding: 13px 10px;
+}
+
+#inglese-testo h6{
+ display: inline-block;
+ position: relative;
+ text-align: center;
+ margin-top: 2px;
+ font-size: 14px;
+ top: 6px;
+ left:20px;
+ color: #a7d0f9;
+}
+
+#tecnologia {
  width: 100%;
  height: 565px;
 }
 
-#azienda-ing{
+#azienda-ing {
  background-color: #0D325A;
  width: 100%;
  height: 500px;
 }
 
-#struttura-piano{
+#struttura-piano {
  width: 100%;
  height: 546px;
 }
 
-#faqs{
+#faqs {
  background-color: #0F335A;
  width: 100%;
  height: 136px;
 }
 
-footer{
+footer {
  background-color: #17406B;
  width: 100%;
  height: 412px;
