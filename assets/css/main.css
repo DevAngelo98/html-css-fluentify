@@ -190,7 +190,7 @@ ul li {
  height: 160px;
 }
 
-.immagine-testo h6 {
+.testo-verde {
  color: #7fb802;
  font-size: 28px;
 }
@@ -269,7 +269,6 @@ hr {
 
 #testo-montagna a {
  color: #98c8f8;
- text-decoration: underline;
  margin-top: 23px;
  position: absolute;
  font-size: 19px;
@@ -445,9 +444,54 @@ a[href="#lezioni"] {
  color: #a7d0f9;
 }
 
+#inglese-essenz:after {
+ display: table;
+ content: "";
+ clear: both;
+}
+
 #tecnologia {
  width: 100%;
  height: 565px;
+}
+
+#pc-testo{
+ text-align: center;
+}
+
+#pc-testo > img {
+ widht: 600px;
+ height: 239px;
+ margin-top: 50px;
+}
+
+#pc-testo h2{
+ color: #4a4a4a;
+ font-size: 28px;
+ font-weight: 600;
+ line-height: 50px;
+}
+
+#pc-testo h5{
+ font-size: 14px;
+ font-weight: 300;
+ opacity: .6;
+}
+
+#pc-testo p{
+ font-size: 20px;
+ font-weight: 300;
+ margin-top: 15px;
+ line-height: 21px;
+ color: #999;
+ padding: 0px 400px;
+}
+
+#pc-testo a{
+ color: #98c8f8;
+ margin-top: 23px;
+ display: inline-block;
+ font-size: 19px;
 }
 
 #azienda-ing {
